@@ -1,0 +1,945 @@
+body {
+    color: rgb(51, 51, 51);
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+    width: 100%;
+    line-height: 1.5em;
+    font-size: medium;
+    font-family: 'Times new roman', times;
+    text-shadow: 3px 4px 1px rgba(255, 255, 255, 0.2);
+    word-break: break-all;
+}
+
+.heder_aram {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+}
+
+.heder_aram a {
+    float: left;
+}
+
+.heder_aram a img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.contener {
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    width: 90%;
+    background-image: url('./pic/fon_meni.jpg');
+    background-repeat: repeat
+}
+
+div {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.0em;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: left;
+    width: 100%;
+    padding: 0px
+}
+
+div img {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 2%;
+    max-width: 400px;
+    max-height: 350px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+hr {
+    border: none;
+    color: #cccccc;
+    height: 1px;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.zastav {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 370px;
+}
+
+.sosial_img {
+    float: left;
+    display: block;
+    border: 0px;
+    display: block;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    text-indent: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+.sosial_img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sosial_img span {
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    max-height: 105px;
+    min-height: 30px;
+    line-height: 15px;
+}
+
+.sosial_img img {
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    color: #330000;
+    border-style: double;
+    border: 2px;
+    border-color: #330000;
+    display: block;
+    font-size: 12pt;
+    text-align: left
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    height: 25px;
+    width: 90%;
+    background-color: #ebe3ce;
+    float: none;
+    clear: left;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+textarea {
+    height: 50px;
+    max-width: 90%;
+}
+
+ul {
+    list-style-type: square;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.7em;
+    margin: 2px;
+    padding: 3px;
+}
+
+ul li ul {
+    list-style: none;
+    margin: 2px;
+    padding: 1px;
+}
+
+ol {
+    display: block;
+    margin: 2%;
+    text-align: left;
+}
+
+ol li {
+    text-align: left;
+}
+
+span {
+    float: left;
+}
+
+p {
+    margin: 3px;
+    text-indent: 15pt;
+    font-size: 1.0em;
+    line-height: 1.7em;
+    font-family: arial, helvetica, sans-serif;
+}
+
+a {
+    font-size: 14px;
+    color: #3e6c62;
+    font-weight: bold;
+}
+
+a:active {
+    color: rgb(123, 164, 40);
+    font-weight: bold;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(123, 164, 40);
+}
+
+a:hover {
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+a {
+    cursor: pointer
+}
+
+.ref a:hover {
+    color: #FFFFFF;
+    background-color: #669966;
+}
+
+h4 {
+    margin-bottom: 2px;
+    margin-top: 4px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.bok {
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 5%;
+    margin-top: 0px;
+    padding-left: 0%;
+    padding-bottom: 10px;
+    padding-right: 0%;
+    padding-top: 10px;
+    width: 25%;
+    max-width: 250px;
+    min-width: 70px;
+    float: left;
+    font-size: 16px;
+    height: 100%
+}
+
+.bok_2 {
+    display: block;
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 10px;
+    padding-right: 1%;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 67%;
+}
+
+.mesag_polz {
+    font-weight: bold;
+    color: #330000;
+    text-indent: 10px;
+    width: 60%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.polzov {
+    font-size: 14px;
+    text-align: right;
+}
+
+.polzov font {
+    color: #653c06;
+    font-weight: bold;
+}
+
+.stroka_fon {
+    background-image: url('./pic/fon7.jpg');
+    height: 100px;
+    border: 5px groove #ccc;
+}
+
+.nov_fon {
+    background-image: url('./pic/fon8.jpg');
+    height: 100px;
+    border: 5px groove #ccc;
+}
+
+.style1 {
+    font-size: x-large;
+    text-align: center;
+    height: 100%;
+    background-image: url('./pic/sapka1.jpg');
+    background-repeat: repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 85%;
+    min-width: 1200px;
+}
+
+stl2 {
+    font-size: medium;
+    width: 90%;
+    min-width: 1200px;
+    background-image: url('./pic/fon9.jpg');
+    background-repeat: repeat;
+    margin: 10px;
+}
+
+.style3 {
+    text-transform: capitalize
+}
+
+.style_per {
+    background-color: #cccccc;
+    width: 100%;
+}
+
+.style_pergunte {
+    background: none repeat scroll 0% 0% rgb(238, 238, 239);
+    border: 1px;
+    border-color: #cccccc;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.style4 {
+    font-size: 0.8em;
+    font-family: arial, helvetica, sans-serif;
+    width: 95%;
+}
+
+.style4 input {
+    border-collapse: collapse;
+    border-color: #99ccff;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.style4 textarea {
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.poisk {
+    display: none;
+    border: 2px;
+    border-color: #993300;
+    text-align: left
+}
+
+.tab_blok {
+    float: left;
+    margin: 2px;
+    text-align: left;
+    padding: 1px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    background: url('./pic/fon9.jpg');
+    width: 82%;
+    min-width: 400px;
+}
+
+._tabviv {
+    background-image: url('./pic/fon7.jpg');
+    border-width: 3px;
+    border-color: silver;
+    border-style: ridge;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    font-size: 12px;
+    min-width: 400px;
+    max-width: 100%;
+    width: 100%;
+}
+
+._tabviv td {
+    border-left: 1px;
+    border-left-style: dotted;
+    min-width: 15px;
+    max-width: 50px;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+._tabviv th {
+    border-left: 1px;
+    border-left-style: dotted;
+    background-image: url('./pic/fon17.jpg');
+    vertical-align: middle;
+}
+
+._tabviv th a {
+    color: #422807;
+    display: block;
+    height: 80px;
+}
+
+ul.css-menu-1 {
+    list-style: square outside;
+    list-style-type: square;
+    list-style-position: outside;
+    color: rgb(51, 51, 51);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* ��ࠬ���� ⥭� */
+    text-indent: 0px;
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-right: 0%;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+ul.css-menu-1 li {
+    list-style-type: square;
+    height: 100%;
+    min-height: 43px;
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0%;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+ul.css-menu-1 li a {
+    background-image: url('./pic/fon_li.jpg');
+    background-repeat: repeat-x;
+    background-position: 0% 0%;
+    display: block;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-top: 0px;
+}
+
+ul.css-menu-1 li a:hover {
+    background-image: url('./pic/fon_li.jpg');
+    background-repeat: repeat-x;
+    background-position: 0% 0%;
+    display: block;
+    color: #003300;
+    line-height: 18px;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 0%;
+    padding-top: 10px;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    min-height: 43px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+ul.css-menu-1 li a.selected {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: red;
+}
+
+ul.css-menu-1 ul.menu-1 {
+    display: block;
+    background-color: #999999;
+    text-indent: 0px;
+    text-align: left;
+    list-style-position: outside;
+    list-style-type: none;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-left: 2%;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul.css-menu-1 ul.menu-1 li {
+    background-color: #cccccc;
+    display: block;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 4px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-right: 0px;
+    margin-top: 5px;
+    line-height: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+ul.css-menu-1 ul.menu-1 li a {
+    background-color: #CCC;
+    background-image: url("");
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    height: 100%;
+    padding-left: 3px;
+    padding-bottom: 0px;
+    padding-right: 2px;
+    padding-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+ul.css-menu-1 ul.menu-1 li a:hover {
+    display: block;
+    height: 100%;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    padding-right: 2px;
+    padding-top: 8px;
+    margin-left: 1%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #003300;
+    background-color: #cccccc;
+    background-clip: border-box;
+    background-origin: padding-box;
+    width: 100%;
+}
+
+.bor {
+    background-image: url('./pic/fon_meni.jpg');
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    width: 100%;
+}
+
+.bor_kol1 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('./pic/polosa2.jpg') right repeat-y;
+    min-width: 1200px;
+    width: 100%;
+}
+
+.bor_kol2 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('pic/polosa_niz.jpg') bottom repeat-x;
+    min-width: 1200px;
+    width: 100%;
+}
+
+.bor_kol3 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('./pic/polosa1.jpg') left repeat-y;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.bor_kol4 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('./pic/ygol1.jpg') top left no-repeat;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.bor_kol5 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('./pic/ygol3.jpg') top right no-repeat;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.bor_kol6 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('./pic/ygol4.jpg') bottom right no-repeat;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.bor_kol7 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background: url('./pic/ygol2.jpg') bottom left no-repeat;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.ves_vse {
+    background-image: url('./pic/fon9.jpg');
+    background-repeat: repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin: 0px;
+    min-width: 1182px;
+    padding: 48px;
+    width: 100%;
+}
+
+.verx_vse {
+    background-image: url('./pic/sapka1.jpg');
+    background-repeat: repeat-x;
+    height: 262px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-width: 1182px;
+    padding: 48px;
+    width: 100%;
+}
+
+.bokovina {
+    background-image: url('./pic/fon9.jpg');
+    background-repeat: repeat;
+    display: block;
+    float: left;
+    width: 5%;
+    min-width: 150px;
+    max-width: 200px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.bokovina ul {
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.firmznak {
+    vertical-align: bottom;
+}
+
+#dacha {
+    padding: 5px;
+    height: 80px;
+}
+
+#dacha div {
+    float: left;
+    border: 3px solid silver;
+}
+
+#dacha div input {
+    width: 50%;
+    ;
+}
+
+#footer {
+    clear: both;
+    background-image: url("./pic/tabs_back.png");
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-left: 0%;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0px auto;
+    text-shadow: 3px 4px 1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+#footer div {
+    width: 88px;
+    background-image: url("./pic/tabs_back.png");
+    background-repeat: repeat-x;
+    float: left;
+}
+
+#s_blok3 {
+    background-image: url('./pic/sapka1.jpg');
+    background-repeat: repeat-x;
+    background-size: 220px;
+    height: 220px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-width: 1020px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    display: inline-block
+}
+
+#zag_v1,
+#zag_v2 {
+    background-image: url('./pic/fon9.jpg');
+    background-repeat: repeat;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    min-width: 1082px;
+    width: 100%
+}
+
+#zag_vv {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 44px;
+    padding-left: 44px;
+    padding-bottom: 44px;
+    padding-top: 4px;
+    width: 100%;
+    min-width: 1100px
+}
+
+#st_kol {
+    margin: 10px
+}
+
+.podelitsa_bok {
+    width: 27px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 156px;
+    z-index: 5
+}
+
+.podelitsa1 {
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
+    float: left;
+}
+
+#posuk {
+    margin-left: 5%;
+    width: 55%;
+    float: right
+}
+
+.gsc-control-cse {
+    background-image: url('./pic/fon_meni.jpg');
+    background-repeat: repeat;
+    border: 0px
+}
+
+.reklama1 {
+    position: absolute;
+    background: #fff;
+    background: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 0%;
+    right: 0%;
+    min-width: 375px;
+    max-width: 412px;
+    padding: 0%;
+    border-color: red;
+    border-style: double;
+    word-wrap: break-word;
+}
+
+.reklama1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.reklama1 h1 {
+    color: red;
+    opacity: 1;
+}
+
+.reklama1 h2 {
+    font-size: 14px;
+}
+
+.reklama1 img {
+    float: left;
+    width: 120px;
+    margin: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

@@ -1,0 +1,12 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/xsl" href = "para_loja_suplumentos_reestr.xsl"?> 
+<catalog>
+<category  id="00001" kategor="Nervoso central" sistema="Dietmed" kategor_all="Nervoso central,Circulatorio,Digestivo "  name='GINKGOBIL | 20 X 15ML AMPOLAS ' 
+imj_jpg='./pic/1m.jpg' sena='10.00' promosao='no'>
+</category>
+<category  id="00002"  kategor="Nervoso central" sistema="Dietmed" kategor_all="Nervoso central,Circulatorio,Digestivo" name='GINKGOBIL | 60 CAPSULAS'  
+imj_jpg='./pic/2m.jpg' sena='20.00'  promosao='yyy'>
+</category>
+ <category id="00003"  kategor="Nervoso central" sistema="Dietmed" kategor_all="Nervoso central,Circulatorio,Digestivo" name='MIGRADIM | 60 CAPSULAS' 
+imj_jpg='./pic/3m.jpg' sena='30.00'   promosao='no'></category>
+</catalog>

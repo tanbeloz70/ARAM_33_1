@@ -1,0 +1,607 @@
+                                                                                                                                              :root {
+                                                                                                                                                 --color_0: 255, 255, 255;
+                                                                                                                                                 --color_1: 255, 255, 255;
+                                                                                                                                                 --color_2: 0, 0, 0;
+                                                                                                                                                 --color_3: 237, 28, 36;
+                                                                                                                                                 --color_4: 0, 136, 203;
+                                                                                                                                                 --color_5: 255, 203, 5;
+                                                                                                                                                 --color_6: 114, 114, 114;
+                                                                                                                                                 --color_7: 176, 176, 176;
+                                                                                                                                                 --color_8: 255, 255, 255;
+                                                                                                                                                 --color_9: 114, 114, 114;
+                                                                                                                                                 --color_10: 176, 176, 176;
+                                                                                                                                                 --color_11: 255, 255, 255;
+                                                                                                                                                 --color_12: 154, 149, 201;
+                                                                                                                                                 --color_13: 101, 95, 153;
+                                                                                                                                                 --color_14: 56, 48, 133;
+                                                                                                                                                 --color_15: 38, 29, 119;
+                                                                                                                                                 --color_16: 242, 242, 242;
+                                                                                                                                                 --color_17: 247, 224, 210;
+                                                                                                                                                 --color_18: 241, 191, 163;
+                                                                                                                                                 --color_19: 120, 96, 82;
+                                                                                                                                                 --color_20: 60, 48, 41;
+                                                                                                                                                 --color_21: 226, 175, 167;
+                                                                                                                                                 --color_22: 197, 131, 120;
+                                                                                                                                                 --color_23: 168, 55, 37;
+                                                                                                                                                 --color_24: 112, 37, 25;
+                                                                                                                                                 --color_25: 56, 18, 12;
+                                                                                                                                                 --color_26: 226, 212, 167;
+                                                                                                                                                 --color_27: 197, 179, 120;
+                                                                                                                                                 --color_28: 168, 137, 37;
+                                                                                                                                                 --color_29: 112, 91, 25;
+                                                                                                                                                 --color_30: 56, 46, 12;
+                                                                                                                                                 --color_31: 206, 236, 251;
+                                                                                                                                                 --color_32: 158, 217, 247;
+                                                                                                                                                 --color_33: 119, 163, 185;
+                                                                                                                                                 --color_34: 79, 109, 124;
+                                                                                                                                                 --color_35: 40, 54, 62;
+                                                                                                                                                 --font_0: normal normal normal 16px/1.4em questrial, sans-serif;
+                                                                                                                                                 --font_1: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+                                                                                                                                                 --font_2: normal normal normal 75px/1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+                                                                                                                                                 --font_3: normal normal normal 40px/1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+                                                                                                                                                 --font_4: normal normal normal 50px/1.4em'rozha one', serif;
+                                                                                                                                                 --font_5: normal normal normal 25px/1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+                                                                                                                                                 --font_6: normal normal normal 22px/1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+                                                                                                                                                 --font_7: normal normal normal 35px/1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+                                                                                                                                                 --font_8: normal normal normal 24px/1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+                                                                                                                                                 --font_9: normal normal normal 15px/1.4em questrial, sans-serif;
+                                                                                                                                                 --font_10: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+                                                                                                                                                 --wix-ads-height: 50px;
+                                                                                                                                                 --wix-ads-top-height: 50px;
+                                                                                                                                                 --site-width: 980px;
+                                                                                                                                                 --above-all-z-index: 100000;
+                                                                                                                                                 --portals-z-index: 100001;
+                                                                                                                                                 -webkit-font-smoothing: antialiased;
+                                                                                                                                                 -moz-osx-font-smoothing: grayscale;
+                                                                                                                                                 --minViewportSize: 320;
+                                                                                                                                                 --maxViewportSize: 1920;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             html,
+                                                                                                                                             body {
+                                                                                                                                                 background-color: rgb(250, 250, 250);
+                                                                                                                                                 border: 0;
+                                                                                                                                                 color: rgb(var(--color_19));
+                                                                                                                                                 display: block;
+                                                                                                                                                 font-family: Arial, Helvetica, sans-serif;
+                                                                                                                                                 font-size: 14px;
+                                                                                                                                                 height: 100%;
+                                                                                                                                                 margin: 0;
+                                                                                                                                                 padding: 0;
+                                                                                                                                                 overflow-x: auto;
+                                                                                                                                                 overflow-y: scroll;
+                                                                                                                                                 outline: 0;
+                                                                                                                                                 -webkit-text-size-adjust: none;
+                                                                                                                                                 -webkit-highlight: none;
+                                                                                                                                                 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 max-width: 1920px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             a,
+                                                                                                                                             span {
+                                                                                                                                                 color: rgb(var(--color_19));
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             h1,
+                                                                                                                                             h2,
+                                                                                                                                             H3,
+                                                                                                                                             h4,h5,h6 {
+                                                                                                                                                 font: var(--font_7);
+                                                                                                                                                 display: block;
+                                                                                                                                                 text-align: center;
+                                                                                                                                                 margin-left: 5%;
+                                                                                                                                                 margin-right: 5%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             h1 {
+                                                                                                                                                
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             h2 {
+                                                                                                                                                 font-size: 18px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             h3 {
+                                                                                                                                                 font-size: 16px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             img {
+                                                                                                                                                 margin: 0% 0% 0% 0%;
+                                                                                                                                                 height: 100%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .hed_aram {
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                                 min-height: 48px;
+                                                                                                                                                 margin: 0px;
+                                                                                                                                                 padding: 1%;
+                                                                                                                                                 height: auto;
+                                                                                                                                                 font-size: 14px;
+                                                                                                                                                 clear: both;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .hed_aram a h2 {
+                                                                                                                                                 float: left;
+                                                                                                                                                 margin: 2%;
+                                                                                                                                                 vertical-align: middle;
+                                                                                                                                                 color: rgb(var(--color_19));
+                                                                                                                                                 letter-spacing: normal;
+                                                                                                                                                 line-height: normal;
+                                                                                                                                                 font: var(--font_7);
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .hed_aram a img {
+                                                                                                                                                 width: 74px;
+                                                                                                                                                 height: 68px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             div {
+                                                                                                                                                 letter-spacing: normal;
+                                                                                                                                                 
+                                                                                                                                                 margin: 0px;
+                                                                                                                                                 padding: 0px;
+                                                                                                                                                 font-size: 18px;
+                                                                                                                                                 overflow-wrap: break-word;
+                                                                                                                                                 display: block;
+                                                                                                                                                 height: auto;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             div div {
+                                                                                                                                                 margin-left: 0%;
+                                                                                                                                                 margin-right: 0%;
+                                                                                                                                                 padding: 0%;
+                                                                                                                                                 text-align: left;
+                                                                                                                                                 display: block;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             ul {
+                                                                                                                                                 margin: 0px 0px;
+                                                                                                                                                 display: block;
+                                                                                                                                                 list-style-type: none;
+                                                                                                                                                 padding-inline-start: 1%;
+                                                                                                                                                 clear: both;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             li {
+                                                                                                                                                 text-align: -webkit-match-parent;
+                                                                                                                                                 padding: 1%;
+                                                                                                                                                 margin: 1%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             li a {
+                                                                                                                                                 min-height: 50px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .zastavka {
+                                                                                                                                                 background-image: url('./PIC/aram_massag.jpg');
+                                                                                                                                                 height: 488px;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                  background-position-x: center;
+                                                                                                                                                 background-position-y: center;
+                                                                                                                                                 background-repeat: no-repeat;
+                                                                                                                                                 background-size: cover;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                            .zastavka h1{
+																																				font-size: 1.8em;
+																																			}
+                                                                                                                                             
+                                                                                                                                             .missao {
+                                                                                                                                                 font: inherit;
+                                                                                                                                                 
+                                                                                                                                                 padding-top: 1%;
+                                                                                                                                                 padding-bottom: 1%;
+                                                                                                                                                 background-color: rgb(250, 250, 250);
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .missao img {
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 height: 100%;
+                                                                                                                                                 object-fit: cover;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .sobre {
+                                                                                                                                                 background-image: url('./PIC/sobre_aram.webp');
+                                                                                                                                                 background-repeat: no-repeat;
+                                                                                                                                                 background-size: cover;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .menu {
+                                                                                                                                                 width: auto;
+                                                                                                                                                 clear: both;
+                                                                                                                                                 min-height: 100px;
+                                                                                                                                                 height: auto;
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .menu ul {
+                                                                                                                                                 padding-inline-start: 0px;
+                                                                                                                                                 margin-inline-start: 0px;
+                                                                                                                                                 padding: 0;
+                                                                                                                                                 margin: 0 0;
+                                                                                                                                                 list-style: none;
+                                                                                                                                                 border: 0px solid #d4d4d4;
+                                                                                                                                                 height: auto;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .menu ul li {
+                                                                                                                                                 width: auto;
+                                                                                                                                                 float: left;
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .menu ul li a {
+                                                                                                                                                 color: rgb( var(--color_19));
+                                                                                                                                                 font-size: 14px;
+                                                                                                                                                 margin-left: 0%;
+                                                                                                                                                 width: auto;
+                                                                                                                                                 margin-top: 0%;
+                                                                                                                                                 text-decoration: none;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .menu ul li a:hover,
+                                                                                                                                             .menu ul li:hover {
+                                                                                                                                                 background-color: #efedeabc;
+                                                                                                                                                 color: rgb(var(--txts, var(--color_19)));
+                                                                                                                                                 transition: var(--trans2, color .4s ease 0s);
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .boton {
+                                                                                                                                                 color: rgb(var(--color_19));
+                                                                                                                                                 font: var(--fnt, var(--font_5));
+                                                                                                                                                 margin: 0;
+                                                                                                                                                 width: 20%;
+                                                                                                                                                 min-width: 200px;
+                                                                                                                                                 max-width: 600px;
+                                                                                                                                                 height: 100px;
+                                                                                                                                                 border-style: dotted;
+                                                                                                                                                 border-width: 2px;
+                                                                                                                                                 border-color: rgb(var(--color_15));
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .metodo ul {
+                                                                                                                                                 list-style-type: disc;
+                                                                                                                                             }
+                                                                                                                                              .metodo {
+                                                                                                                                                 font: inherit;
+                                                                                                                                                 width: 70%;
+                                                                                                                                                 background-position-x: center;
+                                                                                                                                                 background-position-y: center;
+                                                                                                                                                 background-repeat: no-repeat;
+                                                                                                                                                 background-size: cover;
+                                                                                                                                                 padding-left: 10%;
+                                                                                                                                                 padding-right: 20%;
+                                                                                                                                                 padding-top: 1%;
+                                                                                                                                                 padding-bottom: 1%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             .metodo {
+                                                                                                                                                 color: rgb(var(--color_19));
+                                                                                                                                                 line-height: normal;
+                                                                                                                                                 font-size: 24px;
+                                                                                                                                                 background-image: url('./PIC/voda-002.webp');
+                                                                                                                                                 background-position-x: center;
+                                                                                                                                                 background-position-y: center;
+                                                                                                                                                 background-size: cover;
+                                                                                                                                                 text-align: left;
+                                                                                                                                                 
+                                                                                                                                                 
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .siroka_polosa {
+                                                                                                                                                 margin: 0px 0px;
+                                                                                                                                                 padding: 0px 0px;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 height: 400px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .polovinka {
+                                                                                                                                                 width: 45%;
+                                                                                                                                                 float: left;
+                                                                                                                                                 margin: 1%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .polovinka img {
+                                                                                                                                                 min-width: 200px;
+                                                                                                                                                 min-height: 170px;
+                                                                                                                                                 width: 95%;
+                                                                                                                                                 height: 40%;
+                                                                                                                                                 max-height: 327;
+                                                                                                                                                 max-width: 400px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             section,.voda {
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                                 clear: both;
+                                                                                                                                                 display: block;
+                                                                                                                                                 font: var(--font_7);
+                                                                                                                                                 font-size: 16px;
+                                                                                                                                                                                                                                                                                                 margin-top: 3%;
+                                                                                                                                                 margin-bottom: 3%;
+                                                                                                                                                 min-height: 400px;
+                                                                                                                                                 height: auto !important;
+                                                                                                                                                 padding: 0%;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 vertical-align: baseline;
+                                                                                                                                                 letter-spacing: normal;
+                                                                                                                                                 overflow: auto;
+                                                                                                                                                 text-align: left;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             section div {
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                                 font: inherit;
+                                                                                                                                                 min-width: 340px;
+                                                                                                                                                 margin: 0px 0px;
+                                                                                                                                                 padding: 0% 0px;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 height: 100%;
+                                                                                                                                                 
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             section div {}
+                                                                                                                                             
+                                                                                                                                             .blok1 {
+                                                                                                                                                 background-image: url('./PIC/clinika1.webp');
+                                                                                                                                                 background-size: cover;
+                                                                                                                                                 background-repeat: no-repeat;
+                                                                                                                                                 min-width: 338px;
+                                                                                                                                                 max-width: 340px;
+                                                                                                                                                 float: left;
+                                                                                                                                                 height: 400px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .blok2 {
+                                                                                                                                                 float: left;
+                                                                                                                                                 padding: 2%;
+                                                                                                                                                 
+                                                                                                                                                 min-width: 340px;
+                                                                                                                                                 max-width: 900px;
+                                                                                                                                                 width: 50%;
+                                                                                                                                                 height: auto;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .img_section {
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 max-width: 402px;
+                                                                                                                                                 max-height: 327px;
+                                                                                                                                                
+                                                                                                                                                 
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .img_section1 {
+                                                                                                                                                 min-width: 338px;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 align-self: start;
+                                                                                                                                                 object-fit: cover;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .blok3 {
+                                                                                                                                             	 background-color: #fff;
+                                                                                                                                                 padding: 2%;
+                                                                                                                                                 float: left;
+                                                                                                                                                 width: 46%;
+                                                                                                                                                 height: auto;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .kolonka div {
+                                                                                                                                                 width: 15%;
+                                                                                                                                                 float: left;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .kolonka div img {
+                                                                                                                                                 width: 150px;
+                                                                                                                                                 height: 150px;
+                                                                                                                                                 border-radius: 30%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .contato {
+                                                                                                                                                 background-image: url('./PIC/fon_contact_ARAM.jpg');
+                                                                                                                                                 background-image: url('./PIC/fon_contacto_ARAM.webp');
+                                                                                                                                                 background-size: cover;
+                                                                                                                                                 background-repeat: no-repeat;
+                                                                                                                                                 color: rgb(var(--color_11));
+                                                                                                                                                 font: inherit;
+                                                                                                                                                 line-height: 1.4em;
+                                                                                                                                                 font-size: 16px;
+                                                                                                                                                 min-height: 700px;
+                                                                                                                                                 width: 100%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .contato div {
+                                                                                                                                                 width: 45%;
+                                                                                                                                                 float: left;
+                                                                                                                                                 margin-top: 2%;
+                                                                                                                                                 margin-bottom: 2%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .contato div div {
+                                                                                                                                                 clear: both;
+                                                                                                                                                 width: auto;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .contato h3 {
+                                                                                                                                                 font-size: 24px;
+                                                                                                                                                 margin: 5px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .contato input {
+                                                                                                                                                 clear: both;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             input,
+                                                                                                                                             textarea {
+                                                                                                                                                 margin: 10px;
+                                                                                                                                                 padding: 10px;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 min-height: 60px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             textarea {
+                                                                                                                                                 min-height: 200px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             form {
+                                                                                                                                                 padding: 10%;
+                                                                                                                                                 height: auto;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .contato form {
+                                                                                                                                                 --rd: 39px 39px 39px 39px;
+                                                                                                                                                 --shd: 0 0 0 rgba(0, 0, 0, 0);
+                                                                                                                                                 --bg: var(--color_34);
+                                                                                                                                                 --brd: 227, 227, 227;
+                                                                                                                                                 --alpha-brd: 1;
+                                                                                                                                                 --brw: 0px;
+                                                                                                                                                 --alpha-bg: 0.51;
+                                                                                                                                                 --loader: 0;
+                                                                                                                                                 margin: 10px 0 0;
+                                                                                                                                                 max-width: 487px;
+                                                                                                                                                 background-color: var(--corvid-background-color, rgba(var(--bg, 0, 0, 0), var(--alpha-bg, 0)));
+                                                                                                                                                 border: solid var(--corvid-border-color, rgba(var(--brd, 227, 227, 227), var(--alpha-brd, 1))) var(--corvid-border-width, var(--brw, 0));
+                                                                                                                                                 border-radius: var(--corvid-border-radius, var(--rd, 0));
+                                                                                                                                                 box-shadow: var(--shd, 0 0 0 transparent);
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .slader {
+                                                                                                                                                 background-image: url('./PIC/fon_para_aram.jpg');
+                                                                                                                                                 background-position-x: center;
+                                                                                                                                                 background-position-y: center;
+                                                                                                                                                 background-repeat: no-repeat;
+                                                                                                                                                 background-size: cover;
+                                                                                                                                                 height: auto;
+                                                                                                                                                 padding: 2%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .slader ul li {
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                                 display: block;
+                                                                                                                                                 min-height: 400px;
+                                                                                                                                                 min-width: 390px;
+                                                                                                                                                 height: 100%;
+                                                                                                                                                 width: 70%;
+                                                                                                                                                 margin: 0%;
+                                                                                                                                                 padding: 2%;
+                                                                                                                                                 text-align: center;
+                                                                                                                                                 z-index: 10;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .slader ul li div {}
+                                                                                                                                             
+                                                                                                                                             .pich {
+                                                                                                                                                 float: left;
+                                                                                                                                                 width: 30%;
+                                                                                                                                                 min-height: 400px;
+                                                                                                                                                 min-width: 390px;
+                                                                                                                                                 max-width: 390px;
+                                                                                                                                                 height: 100%;
+                                                                                                                                                 margin: 0%;
+                                                                                                                                                 padding: 2%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .pich img {
+                                                                                                                                                 max-height: 400px;
+                                                                                                                                                 min-width: 390px;
+                                                                                                                                                 max-width: 390px;
+                                                                                                                                                 height: 96%;
+                                                                                                                                                 margin: 0%;
+                                                                                                                                                 padding: 2%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .divav {
+                                                                                                                                                 padding: 2%;
+                                                                                                                                                 min-height: 386px;
+                                                                                                                                                 margin: 0%;
+                                                                                                                                                 height: 96%;
+                                                                                                                                                 text-align: left;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             #pontos {
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                                 display: block;
+                                                                                                                                                 height: 30px;
+                                                                                                                                                 clear: both;
+                                                                                                                                                 text-align: center;
+                                                                                                                                                 width: 70%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .loja1 {
+																																			 	clear: both;
+																																			 }
+                                                                                                                                             .loja1 h1,
+                                                                                                                                             .loja1 h2,
+                                                                                                                                             .loja1 h6  {text-align: left;
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 visibility: inherit;
+    align-self: start;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             .loja1 h1 {font-size: 75px;} 
+                                                                                                                                             
+                                                                                                                                             .loja1 ul li {
+                                                                                                                                                 float: left;
+                                                                                                                                                 width: 28%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .loja1 figcaption {
+                                                                                                                                                 background-color: #fff;
+                                                                                                                                                 position: relative;
+                                                                                                                                                 top: -70px;
+                                                                                                                                                 z-index: 5;
+                                                                                                                                                 text-align: center;
+                                                                                                                                                 height: 35px;
+                                                                                                                                                 margin: 10px;
+                                                                                                                                                 padding: 10px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .loja1 figcaption h3 {
+                                                                                                                                                 margin: 0px;
+                                                                                                                                                 padding: 0px;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .loja1 a {
+                                                                                                                                                 text-decoration: none;
+                                                                                                                                             }
+ figure {   margin-inline-start: 0px;
+             margin-inline-end: 0px; 
+             float: left;
+             width:100%;  }                                   
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             
+                                                                                                                                             figure img {
+                                                                                                                                                 width: 100%;
+                                                                                                                                                 min-width: 250px;
+                                                                                                                                                 max-width: 300px;
+                                                                                                                                                 max-height: 400px;
+                                                                                                                                                 height: 100%;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .katalog img {
+                                                                                                                                                 max-width: 300px;
+                                                                                                                                                 max-height: 200px;
+                                                                                                                                                 float: left;
+                                                                                                                                             }
+                                                                                                                                             .katalog {
+																																			 	 background-color: #fff;
+																																			 }
+                                                                                                                                             .katalog div {
+                                                                                                                                             	 background-color: #fff;
+                                                                                                                                                 max-width: 400px;
+                                                                                                                                                 max-height: 400px;
+                                                                                                                                                 float: left;margin: 2%;
+                                                                                                                                             }
+                                                                            .lojasoz{ width:70%;
+																				
+																			}                                                                  
+                                                                            .lojasoz img {width:300px;
+																				
+																			}

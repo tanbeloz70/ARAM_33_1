@@ -1,0 +1,18 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/xsl" href = "http://localhost/ARAM_33/PARA_LOJA/SUPLUMENTOS/katalog_xml/suplumentos.xsl"?> 
+<catalog>
+<category  id="00001" kategor="Nervoso central" sistema="Dietmed" kategor_all="Nervoso central,Circulatorio,Digestivo "  name='ARTRONAT FLEX GEL ' 
+imj_jpg='http://localhost/ARAM_33/PARA_LOJA/SUPLUMENTOS/pic/00001_grand.webp' sena='22.00' promosao='no'>
+<suplimento_name>ARTRONAT FLEX GEL </suplimento_name>
+<sena>22.00</sena>
+<Suplemento_Alimentar>
+Artroflex Gel é um gel tópico de alta qualidade, concebido para aliviar as dores musculares e articulares. Quando se massaja
+ suavemente a zona dolorida, os ingredientes contidos no neste produto favorecem um alívio rápido e em profundidade das dores
+ musculares e articulares. Um dos ingredientes utilizados no gel é a Arnica, uma planta utilizada na Europa há décadas contra a dor.
+</Suplemento_Alimentar>
+<Ingredientes><ul><li>Colagénio</li><li>Glucosamina</li><li>Condroitina</li><li>Arnica</li><li>Harpagophytum</li></ul>
+</Ingredientes>
+<Modo>Aplicar o gel sobre a zona desejada com uma massagem suave até completa absorção do gel
+</Modo>
+</category>
+</catalog>
